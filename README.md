@@ -1,6 +1,6 @@
 # 🧠 LogForge
 
-**LogForge** is a Python-powered system inspection and logging pipeline designed for Linux environments. It collects detailed system metrics—CPU, memory, disk, and network—and stores them in a SQLite database using a custom logging handler. A Streamlit dashboard provides a clean, interactive interface to visualize logs in real time.
+**LogForge** is a Python-powered system inspection and logging pipeline designed for Linux environments. It collects detailed system metrics for CPU, memory, disk, and network. And stores them in a SQLite database using a custom logging handler. A Streamlit dashboard provides a clean, interactive interface to visualize logs in real time.
 
 ---
 
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ---
 
 ## Dashboard preview
-<img src="log_sql_pipeline/dashboard_preview.png" alt="LogForge Dashboard Preview" width="600" height="500"/>
+<img src="./dashboard_preview.png" alt="LogForge Dashboard Preview" width="600" height="500"/>
 
 ## 🔍 What Makes LogForge Unique
 - Linux-first design: Tailored for terminal workflows, cron jobs, and containerized environments.
